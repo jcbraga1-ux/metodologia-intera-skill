@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Se usar esta skill, cite o repositório e o livro da Metodologia Intera 2.0."
+title: "Metodologia Intera 2.0 – Skill"
+type: software
+authors:
+  - family-names: "Braga"
+    given-names: "Juliana Cristina"
+    affiliation: "Universidade Federal do ABC (UFABC) – Grupo Intera"
+  - family-names: "Dotta"
+    given-names: "Silvia"
+    affiliation: "Universidade Federal do ABC (UFABC) – Grupo Intera"
+  - family-names: "Pimentel"
+    given-names: "Edson Pinheiro"
+    affiliation: "Universidade Federal do ABC (UFABC) – Grupo Intera"
+license: CC-BY-4.0
+repository-code: "https://github.com/jcbraga1-ux/metodologia-intera-skill"
+version: 1.0.0
+keywords:
+  - metodologia Intera
+  - objetos de aprendizagem
+  - jogos educacionais
+  - acessibilidade
+  - agent skills
+preferred-citation:
+  type: book
+  title: "Metodologia Intera 2.0: diretrizes para desenvolver objetos de aprendizagem eficazes"
+  authors:
+    - family-names: "Braga"
+      given-names: "Juliana Cristina"
+    - family-names: "Dotta"
+      given-names: "Silvia"
+    - family-names: "Pimentel"
+      given-names: "Edson Pinheiro"
+  publisher:
+    name: "Universidade Federal do ABC"
+    city: "Santo André"
