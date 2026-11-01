@@ -87,7 +87,7 @@ Tipos de teste e questões orientadoras (site e livro):
 
 A página de Artefatos também recomenda, em resumo: testes funcionais, de usabilidade e de experiência do usuário. Para jogos, somam-se jogabilidade e conteúdo; para cursos EaD, checklist de qualidade e checklist de acessibilidade e-MAG.
 
-**Como a skill conduz:** monte o plano de testes a partir da especificação (um caso de teste por RF/RA, com critério de aceite); para acessibilidade, use o conjunto de diretrizes definido nos requisitos (WCAG/e-MAG, MobileDU ou RPG-DU) e recomende testes com pessoas com deficiência do público-alvo, não só com a equipe; registre o perfil e o número de testadores.
+**Como a skill conduz:** monte o plano de testes a partir da especificação (um caso de teste por RF/RA, com critério de aceite); para acessibilidade, use o conjunto de diretrizes definido nos requisitos (WCAG/e-MAG, MobileDU ou RPG-DU) e recomende testes com pessoas com deficiência do público-alvo, de perfis diferentes (não só com a equipe e não só com um tipo de deficiência); registre o perfil e o número de testadores e quais dimensões da matriz de `desenho-universal.md` foram testadas.
 
 ### Detalhamento de Teste e Qualidade (livro vol. 2 (BRAGA, 2015), cap. 6)
 
