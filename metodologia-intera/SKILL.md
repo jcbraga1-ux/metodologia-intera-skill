@@ -1,6 +1,6 @@
 ---
-name: "metodologia-intera"
-description: "Use para planejar e conduzir o desenvolvimento de objetos de aprendizagem (aulas, cursos EaD, vídeos, simulações, softwares e jogos educacionais) com a Metodologia Intera 2.0 da UFABC: papéis, etapas, guias de contextualização e requisitos, esboço, testes, avaliação pedagógica, disponibilização, reúso e recursos educacionais abertos (REA)."
+name: metodologia-intera
+description: Use para planejar e conduzir o desenvolvimento de objetos de aprendizagem (aulas, cursos EaD, vídeos, simulações, softwares e jogos educacionais) com a Metodologia Intera 2.0 da UFABC, cobrindo papéis, etapas, guias de contextualização e requisitos, esboço, testes, avaliação pedagógica, disponibilização, reúso e recursos educacionais abertos (REA).
 ---
 
 # Metodologia Intera 2.0
