@@ -9,6 +9,8 @@ Agent Skill que conduz o desenvolvimento de **objetos de aprendizagem** (aulas, 
 - **Conduz os guias como entrevista:** contextualização, requisitos, esboço, testes, avaliação pedagógica, disponibilização e gestão, entregando cada artefato preenchido com pontos de atenção.
 - **Transforma requisitos pedagógicos em funcionalidades testáveis**, inclusive com as diretrizes sociointeracionistas D1–D40 para jogos.
 - **Coloca o reúso no centro:** reutiliza antes de criar, escreve requisitos de reúso, orienta sobre recursos educacionais abertos (REA), os 5R e licenças Creative Commons, e entrega uma ficha de reúso.
+- **Conduz os guias com o professor:** faz todas as perguntas dos guias de contextualização e de requisitos, sem responder por ele, e registra as questões em aberto.
+- **Parte do Desenho Universal desde o início:** a acessibilidade cobre visão, audição, movimento, cognição e aprendizagem, língua e letramento, entre outras dimensões, e não um único público.
 - **Trata acessibilidade com diretrizes**, e não só com dispositivos, e trabalha junto com as skills [WCAG sem complicação](https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill), [MobileDU](https://github.com/jcbraga1-ux/mobiledu-skill) e [RPG-DU](https://github.com/jcbraga1-ux/rpg-du-skill).
 
 ## Conteúdo
@@ -24,6 +26,7 @@ metodologia-intera/
     ├── extensao-jogos.md                      # papéis, etapas e GDD para jogos
     ├── extensao-ead.md                        # processo BPM para cursos a distância
     ├── reuso-e-rea.md                         # definição de OA, reúso, REA, 5R, licenças, ficha de reúso
+    ├── desenho-universal.md                   # acessibilidade desde o início: princípios do DU e matriz de necessidades
     └── diretrizes-sociointeracionistas.md     # D1–D40
 ```
 
