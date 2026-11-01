@@ -48,6 +48,30 @@ No projeto Expedição Antártica (cap. 6) atuaram também co-designers cegos e 
 - O analista é papel crítico; os testes das equipes dependem uns dos outros.
 - Para diretrizes de Design Universal em jogos RPG, use a skill `rpg-du-diretrizes` (88 diretrizes, Cunha 2022), se disponível.
 
+## Validação da extensão para jogos (artigo do grupo)
+
+Fonte: MELLE, L. F. O.; BRAGA, J. C.; PIMENTEL, E. P.; DOTTA, S. C.; FREIBERGER-AFFONSO, S.; DOMINGUES, F. U.; KARRAS, D. P. *Metodologia INTERA ampliada e validada para o desenvolvimento de jogos educacionais* (capítulo 5, disponível no site Intera › Metodologia INTERA para Jogos › Artigo, consultado em 01/11/2026).
+
+**Por que um jogo educacional pede mais cuidado:** comparado a um software comum, o jogo tem mecânica e narrativa, e a estética é essencial; o jogo educacional soma a isso os **elementos pedagógicos**, que são o desafio adicional de qualidade.
+
+**Como a extensão foi construída:** (1) revisão sistemática com 13 metodologias de jogos sérios (nenhuma tratava acessibilidade de forma direta, só 4 previam a participação do jogador e a maioria planejava apenas no início); (2) incorporação à Intera do que faltava: narrativa, mecânica, estética, participação do jogador e papéis de jogos; (3) estudo de campo qualitativo de 18 meses com o *Expedição Antártica* (RPG, cerca de 40 pessoas na equipe, incluindo pessoas cegas, surdas e com deficiência cognitiva).
+
+**O que mudou na metodologia para jogos:** fases renomeadas para pré-produção, produção e pós-produção; papéis de ilustrador, designer de som, usuários, designer de jogos, equipe de vídeo e equipe de acessibilidade (audiodescritor, tradutor de Libras); artefatos de GDD, vídeos em Libras, texto de audiodescrição, arquivos de som, caso de uso acessível, glossário em Libras e diálogos dos personagens; e, em cada etapa, como a tétrade e a acessibilidade aparecem.
+
+**Validação com o *Jornada Jubarte*** (corrida infinita sobre a migração das baleias-jubarte entre a Antártica e o Brasil, para crianças de 7 a 12 anos, base vigotskiana, projeto InterAntar/CNPq):
+- A equipe acumulou papéis, mas cada papel tinha alguém responsável. O próprio grupo registra como **limitação** a ausência de usuários desde o início e de equipe de acessibilidade.
+- O guia de contextualização ajudou a manter o foco pedagógico: durante a produção, a equipe voltava a ele para conferir se os objetivos estavam sendo cumpridos.
+- Os requisitos funcionais (migrar, amamentar o filhote, fugir das orcas, alimentar-se de krill) foram derivados das diretrizes sociointeracionistas (desafios de resolução de problemas, transposição de conceitos, interação com objetos do cenário, papel ativo do jogador, linguagem acessível).
+- Na arquitetura, GDD e protótipo (artefatos da área de jogos, fortemente recomendados pela Intera), começando pelo *high concept*, gênero e público.
+- Testes com 12 pessoas que **não** eram do público-alvo (75% de satisfação geral); o grupo registra isso como limitação e indica que a aprendizagem ainda precisa ser avaliada com crianças. Tipos de teste recomendados para jogos: funcionalidade, acessibilidade, confiabilidade técnica, usabilidade/jogabilidade e validação/aceitação.
+
+**Como a skill usa isso:** ao montar a matriz de papéis de um jogo, aponte explicitamente a falta de usuários do público-alvo e de equipe de acessibilidade como risco (a própria validação do grupo mostra o efeito); ao final de cada etapa, compare o artefato com os objetivos do guia de contextualização; e não trate satisfação de testadores como evidência de aprendizagem.
+
+## Exemplos de jogos do grupo Intera
+
+- ***O Mistério da Iluminária*** (RPG sobre energia e problemas socioambientais, com base na educação ambiental crítica; Nishida, Braga, Monteforte e Benassi; UAB/Capes; 2º lugar na Mostra de Software do CBIE 2014). Página: https://www.interaufabc.com.br/jogos-educacionais. Do ponto de vista do reúso, observe que o instalador é um .exe para Windows hospedado em serviço de terceiros: isso limita a portabilidade e a durabilidade, duas das dificuldades de reúso descritas em `reuso-e-rea.md`.
+- ***Expedição Antártica*** (RPG com ciência cidadã, desenvolvido com co-designers com deficiência) e ***Jornada Jubarte*** (corrida infinita), descritos acima.
+
 ## Guia para o documento de game design (GDD)
 
 Modelo: https://docs.google.com/document/d/105q2GiSmPaFgAhsXC67-aagzY4DZAokb/edit · Exemplos (pasta): https://drive.google.com/drive/folders/1PZsP2wQRFXGqS0XF2uIqT1IM4rdWGRbN

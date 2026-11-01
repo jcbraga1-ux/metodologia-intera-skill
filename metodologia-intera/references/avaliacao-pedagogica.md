@@ -43,4 +43,18 @@ A skill **planeja** a avaliação; ela não mede aprendizagem por si.
 - **Critérios a considerar:** concepção epistemológica do OA, objetivos descritos nos metadados, qualidade do conteúdo, facilidade de uso, interatividade e linguagem.
 - O livro traz um exemplo completo (animação em Engenharia de Software): pré-avaliação com perguntas sobre o conteúdo, atividade com o OA e critérios de avaliação da entrega, e pós-avaliação por questionário de percepção. Ao usar esse modelo, inclua também questões de conteúdo equivalentes às da pré-avaliação, porque questionário de percepção mede opinião, não aprendizagem.
 
+## Exemplo real: protocolo de avaliação do jogo *Expedição Antártica*
+
+Fonte: site Intera › Avaliação do Jogo (https://www.interaufabc.com.br/avalia%C3%A7%C3%A3o-do-jogo), consultado em 01/11/2026.
+
+O grupo publicou o roteiro que cada participante seguia, todo on-line:
+
+1. Preencher, assinar e enviar o **Termo de Consentimento Livre e Esclarecido**.
+2. Responder ao **pré-teste** (formulário on-line).
+3. Baixar e instalar o jogo (com instruções para descompactar o arquivo).
+4. Jogar **apenas as missões em avaliação** (Itens de Viagem e Baleias, de um total de quatro), com aviso de que as demais ainda não estavam liberadas.
+5. Responder ao **pós-teste**.
+
+O que esse exemplo ensina: o consentimento vem antes de qualquer coleta; o recorte do que está sendo avaliado fica explícito para o participante (só as missões prontas); e pré e pós-teste delimitam a atividade. Ao montar um plano de avaliação, a skill pode propor esse mesmo roteiro, adaptado ao OA, lembrando que pré e pós precisam ter questões equivalentes ligadas aos objetivos e que, com menores de idade, o consentimento é dos responsáveis (e o assentimento, da criança).
+
 Na extensão EaD, a avaliação usa Plano de Avaliação e Questionário de Avaliação (visão 360º com coordenador, designer instrucional, tutores, formadores e discentes) — ver `extensao-ead.md`.
