@@ -34,4 +34,13 @@ Dois níveis possíveis: a aprendizagem do aluno e as possibilidades de ensino e
 
 A skill **planeja** a avaliação; ela não mede aprendizagem por si.
 
+## Detalhamento (livro vol. 2 (BRAGA, 2015), cap. 8)
+
+- Para a metodologia, o ciclo de vida do OA só se completa com a avaliação pedagógica, feita depois dos testes técnicos e da disponibilização.
+- **Papéis:** designer pedagógico (projeta a avaliação), coordenador (gerencia e planeja), conteudista (elabora as atividades e os critérios) e demandante (aplica ou delega a aplicação a um professor).
+- **Avalie também o contexto** em que o OA foi inserido: um vídeo sozinho pode render pouco e render muito dentro de uma sequência didática bem planejada.
+- **O formato não garante a aprendizagem:** uma animação pode ou não promover aprendizagem, dependendo de quando e como é usada (Mayer e Moreno, 2002). Uma imagem pode ser apenas ilustrativa.
+- **Critérios a considerar:** concepção epistemológica do OA, objetivos descritos nos metadados, qualidade do conteúdo, facilidade de uso, interatividade e linguagem.
+- O livro traz um exemplo completo (animação em Engenharia de Software): pré-avaliação com perguntas sobre o conteúdo, atividade com o OA e critérios de avaliação da entrega, e pós-avaliação por questionário de percepção. Ao usar esse modelo, inclua também questões de conteúdo equivalentes às da pré-avaliação, porque questionário de percepção mede opinião, não aprendizagem.
+
 Na extensão EaD, a avaliação usa Plano de Avaliação e Questionário de Avaliação (visão 360º com coordenador, designer instrucional, tutores, formadores e discentes) — ver `extensao-ead.md`.

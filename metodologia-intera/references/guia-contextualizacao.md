@@ -53,6 +53,18 @@ Modelo: https://docs.google.com/document/d/12aRjA62LQdTkzgl6hKg8A-Ls-X5pzNwKDQFt
 Na extensão para jogos, recomenda-se uma visita ao local de aplicação (analista, designer de jogos e demandante) antes de preencher o guia; depois o designer pedagógico detalha com o demandante e todas as equipes se reúnem.
 Entradas (jogos): livros, revistas, artigos, informações sobre os jogadores, objetivos pedagógicos, guia de coleta de contextualização, cenário de uso. Práticas: entrevistas com possíveis jogadores e com as equipes; preenchimento do guia. Saídas: relatório dos dados colhidos; guia de contextualização preenchido.
 
+## Estrutura do relatório de contexto (livro vol. 2, cap. 2)
+
+Fonte: BRAGA, J. C. *Objetos de Aprendizagem, volume 2: metodologia de desenvolvimento*. Santo André: Editora da UFABC, 2015 (Coleção Intera), cap. 2 (Braga; Ponchio). É a base da 1ª edição da metodologia e continua útil para **organizar** o relatório, mesmo quando as perguntas vêm do guia do site.
+
+O contexto é construído **antes** de o OA existir, preferencialmente no ambiente real (com o demandante e com alunos do público-alvo). O modelo tem três blocos; nem todos os campos precisam ser preenchidos, e outros podem ser acrescentados.
+
+1. **Caracterização geral do OA:** tipo de OA (mídias); problema pedagógico; objetivos pedagógicos; área do conhecimento; disciplina principal; ementa e **tópicos da ementa** com que o OA se relaciona; descrição breve; público-alvo; conhecimento prévio; grau de acessibilidade; fluência tecnológica; **problema atual** e **solução esperada**.
+2. **Características de reúso:** outras disciplinas em que o OA pode ser reutilizado; tópicos dentro dessas disciplinas; **componentes** em que o OA pode ser dividido (ex.: célula animal e célula vegetal; uma videoaula dividida em vídeos menores, com o tópico de cada um).
+3. **Cenário de uso:** modalidade (presencial, a distância, híbrida) e descrição de uma situação pedagógica concreta em que o OA será usado (ex.: "os alunos assistem à animação no AVA sem explicação prévia e depois respondem ao questionário").
+
+Níveis de contexto a observar (Filatro, 2009, citado no livro): contexto de **orientação** (motivação e preparo do aluno), de **aprendizagem** (curso, aula, recursos físicos, humanos e sociais) e de **transferência** (onde o aprendido será aplicado); e as perspectivas individual do aluno, pedagógica imediata e institucional.
+
 ## Exemplos publicados
 
 - Aulas síncronas: https://docs.google.com/document/d/12cBFxN4YJ4yQ7w5ZluzbyL9QCZ08sUTC/edit
@@ -61,6 +73,7 @@ Entradas (jogos): livros, revistas, artigos, informações sobre os jogadores, o
 
 ## Como a skill conduz esta etapa
 
+- Use as perguntas do guia do tipo de OA, mas entregue o relatório **organizado nos três blocos** acima (caracterização, reúso, cenário de uso). O bloco de reúso e o cenário de uso são obrigatórios; se a pessoa não souber responder, registre como questão em aberto.
 - Pergunte **uma ou duas questões por vez**, em linguagem simples, explicando termos (conceitual, procedimental, atitudinal) com exemplo do próprio tema da pessoa.
 - Ao final, entregue o **relatório de contexto** com as respostas organizadas e uma seção **"Pontos de atenção"** com incoerências encontradas, por exemplo:
   - público-alvo × conhecimento prévio exigido (ex.: exigir leitura e escrita de crianças de 4 anos com dificuldade de aprendizagem);

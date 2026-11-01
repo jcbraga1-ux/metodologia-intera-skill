@@ -54,6 +54,42 @@ Modelo: https://docs.google.com/document/d/19y8CqzaArEBDLAjzz99EM1L0ZEFhD8q2/edi
 
 **Reúso:** granularidade, agregação e reusabilidade do OA.
 
+> Para conduzir este bloco, use `reuso-e-rea.md`: transforme as respostas em requisitos não funcionais de reúso testáveis (licença aberta, formatos editáveis, arquivos-fonte entregues, tamanho do grão, independência entre partes, compatibilidade de licenças de terceiros) e preencha a ficha de reúso. Na pergunta de licença, explique os 5R e o efeito de cada licença Creative Commons.
+
+## Detalhamento da etapa (livro vol. 2, cap. 3)
+
+Fonte: BRAGA, J. C. *Objetos de Aprendizagem, volume 2: metodologia de desenvolvimento*. Santo André: Editora da UFABC, 2015 (Coleção Intera), cap. 3 (Braga; Kelly).
+
+**Para que serve a etapa:** chegar a um acordo com o demandante sobre o que o OA deve fazer; dar à equipe uma compreensão clara do OA; servir de base para planejar as iterações e **estimar custo e prazo**; preparar o esboço; e ser o elo entre o técnico e o pedagógico. O documento de especificação circula por toda a equipe como um **"acordo"** e deve estar em linguagem natural. O professor demandante preenche e o analista revisa; é normal completá-lo em várias rodadas.
+
+**De onde vêm os requisitos:** de qualquer pessoa que ajude a entender o OA (o "requisitante": demandante, coordenador, professores, alunos do público-alvo), de documentos (ementa, apostila, texto de referência) e de **OAs já existentes** usados como base. O livro aponta como erro mais comum avançar com requisitos incompletos ou mal coletados.
+
+**Técnicas de levantamento** (adaptado de Courage e Baxter, 2005):
+
+| Técnica | Quando usar | Cuidado |
+| --- | --- | --- |
+| Entrevistas | OA com vários tipos de usuário; entrevista com o professor idealizador | exige preparo do entrevistador e tempo |
+| Questionários | muitos usuários, baixo custo, sem contato presencial | quem elabora precisa conhecer os objetivos da etapa |
+| Grupos de foco | equipe reunida para discutir o OA | rever requisitos e testes com frequência |
+| Brainstorming | 2 a 10 pessoas buscando ideias novas | gerenciar prazo e foco pedagógico |
+| Estudos de campo | grupo com interesses em comum | idem questionários |
+
+**Subcategorias de requisitos não funcionais, com exemplos do livro:**
+
+- *Confiabilidade:* veracidade do conteúdo; exatidão dos exercícios; nível de detalhe apropriado.
+- *Usabilidade:* itens relacionados próximos; áudio para descrever gráficos; apoio à navegação; linguagem acessível; ajuda disponível.
+- *Acesso:* perfis distintos (ex.: aluno não vê a área do professor; professor vê a do aluno; dados de notas armazenados com segurança).
+- *Disponibilidade:* OA depositado em repositório especializado, com metadados.
+- *Reusabilidade:* conteúdo organizado para ser desmembrado em mais de uma unidade (ex.: "os conceitos de desvio condicional simples e composto podem ser apresentados juntos ou separados"; "o OA poderá ser dividido em pelo menos três pequenos objetos, usados juntos ou separados").
+- *Acessibilidade:* ex.: "todas as funcionalidades deverão ser lidas por leitores de tela".
+- *Desempenho:* número de usuários simultâneos e tempo de resposta.
+- *Portabilidade:* navegadores, AVAs, sistemas e dispositivos.
+- *Ajuda e documentação:* manual de instalação, guia do professor, guia do aluno.
+- *Design de interface:* ex.: mesmas fontes e cores do site da instituição.
+- *Licenciamento e direitos autorais:* licença, titular do copyright, avisos legais e restrições.
+
+**Requisitos pedagógicos de cursos EaD:** o livro organiza um exemplo pelos três pilares da EaD: **estruturação** (AVA, objetivos e critérios claros em cada aula, atividades com feedback), **autonomia do aluno** (vídeos que podem ser revistos, aulas assíncronas) e **diálogo** (prazos de resposta a dúvidas, feedback individual dos tutores, fóruns e webconferência).
+
 ## Exemplos publicados
 
 - Aulas síncronas: https://docs.google.com/document/d/1TCLozxVqbfMYPYZTWeB0-XWe0RXeMosQ/edit
