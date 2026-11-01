@@ -31,7 +31,14 @@ metodologia-intera/
 
 A skill é a pasta [`metodologia-intera/`](metodologia-intera/).
 
-- **Assistentes com tela de configurações (como o Claude):** use o arquivo `metodologia-intera.zip` da página de [releases](../../releases) ou compacte a pasta `metodologia-intera` e envie na seção de Skills.
+- **Assistentes com tela de configurações:** baixe o arquivo pronto na página de [Releases](../../releases), em *Assets*:
+
+  | Assistente | Arquivo | Onde enviar |
+  | --- | --- | --- |
+  | Claude (claude.ai e app) | `metodologia-intera.zip` | *Configurações › Capacidades › Skills* |
+  | Gemini (app e web) | `metodologia-intera-gemini.zip` | página de *Skills* do Gemini, opção de enviar arquivo |
+
+  O arquivo `metodologia-intera-gemini.zip` traz o `SKILL.md` na pasta principal, como o Gemini exige, e também foi testado no Claude.
 - **Ferramentas que leem skills de uma pasta (como Claude Code):** copie a pasta `metodologia-intera` para o diretório de skills da ferramenta (no Claude Code, `~/.claude/skills/`).
 
 Depois de instalada, basta pedir em linguagem natural, por exemplo: *“Quero desenvolver um jogo de frações para o 6º ano usando a metodologia Intera.”*
