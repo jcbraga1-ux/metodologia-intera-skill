@@ -8,6 +8,7 @@ Agent Skill que conduz o desenvolvimento de **objetos de aprendizagem** (aulas, 
 - **Define papéis:** monta a matriz papel × pessoa e aponta riscos, como a falta de equipe de acessibilidade.
 - **Conduz os guias como entrevista:** contextualização, requisitos, esboço, testes, avaliação pedagógica, disponibilização e gestão, entregando cada artefato preenchido com pontos de atenção.
 - **Transforma requisitos pedagógicos em funcionalidades testáveis**, inclusive com as diretrizes sociointeracionistas D1–D40 para jogos.
+- **Coloca o reúso no centro:** reutiliza antes de criar, escreve requisitos de reúso, orienta sobre recursos educacionais abertos (REA), os 5R e licenças Creative Commons, e entrega uma ficha de reúso.
 - **Trata acessibilidade com diretrizes**, e não só com dispositivos, e trabalha junto com as skills [WCAG sem complicação](https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill), [MobileDU](https://github.com/jcbraga1-ux/mobiledu-skill) e [RPG-DU](https://github.com/jcbraga1-ux/rpg-du-skill).
 
 ## Conteúdo
@@ -22,6 +23,7 @@ metodologia-intera/
     ├── avaliacao-pedagogica.md                # plano de avaliação pré e pós
     ├── extensao-jogos.md                      # papéis, etapas e GDD para jogos
     ├── extensao-ead.md                        # processo BPM para cursos a distância
+    ├── reuso-e-rea.md                         # definição de OA, reúso, REA, 5R, licenças, ficha de reúso
     └── diretrizes-sociointeracionistas.md     # D1–D40
 ```
 
@@ -37,6 +39,8 @@ Depois de instalada, basta pedir em linguagem natural, por exemplo: *“Quero de
 ## Fontes
 
 - BRAGA, Juliana Cristina; DOTTA, Silvia; PIMENTEL, Edson Pinheiro (org.). **Metodologia Intera 2.0: diretrizes para desenvolver objetos de aprendizagem eficazes**. Santo André: UFABC.
+- BRAGA, Juliana Cristina (org.). **Objetos de Aprendizagem, volume 1: introdução e fundamentos**. Santo André: Editora da UFABC, 2014. (Coleção Intera). ISBN 978-85-68576-03-8.
+- BRAGA, Juliana Cristina. **Objetos de Aprendizagem, volume 2: metodologia de desenvolvimento**. Santo André: Editora da UFABC, 2015. (Coleção Intera). ISBN 978-85-68576-04-5.
 - Site do grupo Intera: https://www.interaufabc.com.br/metodologia-intera-2-0 (guias e artefatos consultados em 31/10/2026).
 
 Quando livro e site diferem, a skill usa os modelos publicados no site e registra a diferença. Trechos que são propostas da skill, e não constam nas fontes, estão sinalizados como tal.
