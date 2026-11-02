@@ -11,7 +11,10 @@ Agent Skill que conduz o desenvolvimento de **objetos de aprendizagem** (aulas, 
 - **Coloca o reúso no centro:** reutiliza antes de criar, escreve requisitos de reúso, orienta sobre recursos educacionais abertos (REA), os 5R e licenças Creative Commons, e entrega uma ficha de reúso.
 - **Conduz os guias com o professor:** faz todas as perguntas dos guias de contextualização e de requisitos, sem responder por ele, e registra as questões em aberto.
 - **Parte do Desenho Universal desde o início:** a acessibilidade cobre visão, audição, movimento, cognição e aprendizagem, língua e letramento, entre outras dimensões, e não um único público.
-- **Trata acessibilidade com diretrizes**, e não só com dispositivos, e trabalha junto com as skills [WCAG sem complicação](https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill), [MobileDU](https://github.com/jcbraga1-ux/mobiledu-skill) e [RPG-DU](https://github.com/jcbraga1-ux/rpg-du-skill).
+- **Propõe exemplos alinhados à teoria de aprendizagem**, sem contradizer a base humanista da Intera, e usa as diretrizes sociointeracionistas D1–D40 em jogos e atividades gamificadas.
+- **Cuida do desenho ético:** evita dark patterns e segue a LGPD e, para crianças e adolescentes, o ECA Digital.
+- **Escolhe tecnologias gratuitas**, de preferência de código aberto.
+- **Trata acessibilidade com diretrizes** e trabalha junto com as skills [WCAG sem complicação](https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill), [MobileDU](https://github.com/jcbraga1-ux/mobiledu-skill) e [RPG-DU](https://github.com/jcbraga1-ux/rpg-du-skill).
 
 ## Conteúdo
 
@@ -27,6 +30,9 @@ metodologia-intera/
     ├── extensao-ead.md                        # processo BPM para cursos a distância
     ├── reuso-e-rea.md                         # definição de OA, reúso, REA, 5R, licenças, ficha de reúso
     ├── desenho-universal.md                   # acessibilidade desde o início: princípios do DU e matriz de necessidades
+    ├── alinhamento-pedagogico.md              # base humanista, coerência dos exemplos com a teoria de aprendizagem
+    ├── desenho-etico.md                       # dark patterns, LGPD e ECA Digital
+    ├── tecnologias-gratuitas.md               # critérios e exemplos de ferramentas gratuitas
     └── diretrizes-sociointeracionistas.md     # D1–D40
 ```
 

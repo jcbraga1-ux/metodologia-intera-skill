@@ -14,7 +14,7 @@ authors:
     affiliation: "Universidade Federal do ABC (UFABC) – Grupo Intera"
 license: CC-BY-4.0
 repository-code: "https://github.com/jcbraga1-ux/metodologia-intera-skill"
-version: 1.3.0
+version: 1.4.0
 doi: "10.5281/zenodo.23845048"
 keywords:
   - metodologia Intera
@@ -22,6 +22,8 @@ keywords:
   - jogos educacionais
   - acessibilidade
   - desenho universal
+  - desenho ético
+  - LGPD
   - reúso
   - recursos educacionais abertos
   - agent skills
