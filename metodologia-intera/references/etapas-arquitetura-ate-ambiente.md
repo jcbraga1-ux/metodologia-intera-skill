@@ -49,6 +49,8 @@ O desafio é que cada módulo possa ser entendido de forma independente dos dema
 
 Construção do OA e de seus componentes de reúso. A técnica varia com o tipo (vídeo: gravar, decupar, editar; software: programar).
 
+**Escolhas tecnológicas (proposta desta skill):** na Arquitetura e no Desenvolvimento, proponha sempre tecnologias e plataformas gratuitas, de preferência de código aberto, e confira se não coletam dados dos alunos para terceiros. Ver `tecnologias-gratuitas.md` e `desenho-etico.md`.
+
 - **Entradas:** relatório de contexto; especificação de requisitos; documento de arquitetura.
 - **Práticas:** variam conforme o OA.
 - **Saídas:** o OA (e código-fonte, se software); práticas pedagógicas sugeridas; manual de uso para o professor; manual de uso para o aluno; instalador com OA, manuais e metadados; direitos autorais e patrimoniais.
@@ -87,7 +89,7 @@ Tipos de teste e questões orientadoras (site e livro):
 
 A página de Artefatos também recomenda, em resumo: testes funcionais, de usabilidade e de experiência do usuário. Para jogos, somam-se jogabilidade e conteúdo; para cursos EaD, checklist de qualidade e checklist de acessibilidade e-MAG.
 
-**Como a skill conduz:** monte o plano de testes a partir da especificação (um caso de teste por RF/RA, com critério de aceite); para acessibilidade, use o conjunto de diretrizes definido nos requisitos (WCAG/e-MAG, MobileDU ou RPG-DU) e recomende testes com pessoas com deficiência do público-alvo, de perfis diferentes (não só com a equipe e não só com um tipo de deficiência); registre o perfil e o número de testadores e quais dimensões da matriz de `desenho-universal.md` foram testadas.
+**Como a skill conduz:** monte o plano de testes a partir da especificação (um caso de teste por RF/RA, com critério de aceite); para acessibilidade, use o conjunto de diretrizes definido nos requisitos (WCAG/e-MAG, MobileDU ou RPG-DU) e recomende testes com pessoas com deficiência do público-alvo, de perfis diferentes (não só com a equipe e não só com um tipo de deficiência); registre o perfil e o número de testadores e quais dimensões da matriz de `desenho-universal.md` foram testadas. Inclua um teste de desenho ético (dark patterns e envio de dados a terceiros), conforme `desenho-etico.md`.
 
 ### Detalhamento de Teste e Qualidade (livro vol. 2 (BRAGA, 2015), cap. 6)
 

@@ -46,6 +46,8 @@ Modelo: https://docs.google.com/document/d/19y8CqzaArEBDLAjzz99EM1L0ZEFhD8q2/edi
 
 **Acesso:** professores e alunos acessam da mesma forma? Quais as diferenças? Precisa de administrador?
 
+> Complemento proposto por esta skill, feito no bloco de Acesso: o OA precisa de login? Quais dados dos alunos serão coletados e para quê? O público inclui crianças ou adolescentes? As respostas viram requisitos de ética e privacidade (RNF-ET), conforme `desenho-etico.md`.
+
 **Desempenho:** quantos alunos simultâneos?
 
 **Portabilidade:** sistemas operacionais; outros dispositivos; acesso via web e necessidade de plugin.
@@ -101,7 +103,7 @@ Fonte: BRAGA, J. C. *Objetos de Aprendizagem, volume 2: metodologia de desenvolv
 
 1. Leia o relatório de contexto (ou pergunte por ele). Quando uma pergunta do guia de requisitos já tiver sido respondida na contextualização, mostre a resposta registrada e peça ao professor que confirme ou atualize, em vez de perguntar do zero.
 2. **Faça ao professor todas as perguntas do guia**, bloco por bloco e na ordem: didático-pedagógicos, funcionalidade, interface gráfica, disponibilidade, acessibilidade, acesso, desempenho, portabilidade, licenciamento e direitos, e reúso. Nenhuma pergunta é pulada nem respondida pela skill; quando o professor não souber (por exemplo, número de alunos simultâneos ou sistema operacional), ofereça opções como sugestão, explique em linguagem simples e registre como questão em aberto se continuar sem resposta. Mostre o progresso por bloco. As perguntas técnicas que o professor não domina podem ser encaminhadas ao designer técnico, mas ficam registradas no documento.
-3. Para cada objetivo pedagógico, proponha requisitos pedagógicos e **transforme-os em requisitos funcionais testáveis** — este é o maior desafio apontado pelo próprio livro. Para jogos, use `diretrizes-sociointeracionistas.md` (D1–D40).
+3. Para cada objetivo pedagógico, proponha requisitos pedagógicos e **transforme-os em requisitos funcionais testáveis** — este é o maior desafio apontado pelo próprio livro. Todo exemplo e todo requisito precisa ser coerente com a teoria de aprendizagem registrada na contextualização (`alinhamento-pedagogico.md`). Em jogos e atividades gamificadas, use sempre `diretrizes-sociointeracionistas.md` (D1–D40) e indique a diretriz de origem de cada RF.
 4. **Acessibilidade com Desenho Universal**, em quatro camadas (separe sempre):
    - premissa de Desenho Universal (`desenho-universal.md`): o OA é desenhado para todas as pessoas; os requisitos cobrem todas as dimensões da matriz de necessidades que se aplicam ao tipo de OA, e não um único público;
    - dispositivos e plataformas (pergunta de portabilidade/disponibilidade);
@@ -109,4 +111,5 @@ Fonte: BRAGA, J. C. *Objetos de Aprendizagem, volume 2: metodologia de desenvolv
    - conjunto de diretrizes e nível-alvo: WCAG (AA como meta comum) ou e-MAG para web e cursos EaD; MobileDU para apps; RPG-DU para jogos. Se as skills `wcag-sem-complicacao`, `mobiledu-diretrizes` ou `rpg-du-diretrizes` estiverem disponíveis, use-as para gerar os requisitos de acessibilidade.
    Cada RA informa a quem serve (dimensão da matriz), o princípio do DU e a diretriz de origem. Os requisitos pedagógicos também seguem o DU: mais de uma forma de apresentar o conteúdo, de participar e de mostrar o que aprendeu. Leitor de tela e teclado são um item entre vários; um conjunto de RA que só atende pessoas cegas está incompleto.
 5. Entregue o **documento de especificação de requisitos** com identificadores: RP-xx (pedagógicos), RF-xx (funcionais), RNF-xx (não funcionais), RA-xx (acessibilidade). Cada RF/RA com origem (objetivo, diretriz ou critério) e **critério de aceite**. Inclua um anexo com **todas as perguntas do guia e as respostas do professor**, indicando a origem de cada resposta.
+   **Ética e privacidade:** gere requisitos RNF-ET (sem dark patterns, coleta mínima, LGPD e, para crianças e adolescentes, ECA Digital), cada um com critério de aceite, conforme `desenho-etico.md`. **Tecnologia:** nos requisitos de portabilidade e disponibilidade, proponha plataformas gratuitas (`tecnologias-gratuitas.md`).
 6. Antes de entregar, confira: todas as perguntas foram feitas? Alguma resposta foi escrita pela skill sem confirmação? Os RA cobrem todas as dimensões da matriz que se aplicam? Liste as questões em aberto e as decisões que dependem do demandante.

@@ -90,7 +90,7 @@ Referência do guia: ROGERS, S. *Level Up: um guia para o design de grandes jogo
 
 ## Diretrizes sociointeracionistas
 
-Para transformar objetivos pedagógicos de base vigotskiana em funcionalidades do jogo, use `diretrizes-sociointeracionistas.md` (D1–D40).
+Em todos os jogos, use `diretrizes-sociointeracionistas.md` (D1–D40) para transformar objetivos pedagógicos em funcionalidades, conferindo a coerência com a teoria declarada (`alinhamento-pedagogico.md`). Mecânicas, recompensas e progressão também passam pela checagem de dark patterns de `desenho-etico.md`; caixas de recompensa são proibidas em jogos para crianças e adolescentes. Para escolher a ferramenta de desenvolvimento, veja `tecnologias-gratuitas.md`.
 
 ## Artefatos publicados (site › Artefatos Jogos)
 
