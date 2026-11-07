@@ -64,9 +64,11 @@ Extensões: jogos acrescentam designer de jogos, designer de som, ilustrador, eq
    - analise criticamente os artefatos e proponha o **acordo do OA** (escopo, não escopo, requisitos não atendidos com justificativa, riscos);
    - proponha sempre um **protótipo de alta fidelidade** para o professor testar e sugerir melhorias;
    - só desenvolva depois da aprovação explícita dele;
-   - antes de desenvolver, pergunte a **plataforma** (web, iOS, Android ou outra); se ele não souber, desenvolva em **HTML completo**;
+   - antes de desenvolver, pergunte a **plataforma** (web, iOS, Android ou outra); se ele não souber, desenvolva em **HTML completo**, sempre com **menu de acessibilidade** (letra, contraste, espaçamento, fonte, pausar animações e sons, leitura em voz alta);
+   - se ele quiser **H5P**, avise que não é possível incluir menu de acessibilidade próprio e que nem todos os tipos de conteúdo atendem à WCAG; ofereça HTML5 com pacote SCORM como alternativa ou, mantido o H5P, use os tipos acessíveis e registre o que não foi atendido;
    - durante o desenvolvimento, faça a **curadoria do conteúdo** e mantenha **um único arquivo .md de registro de reúso**;
-   - ao terminar, pergunte se ele deseja um **tutorial de uso**, um **plano de teste** (três visões, parecer do professor e decisão de apto ou não apto) e a **exportação para SCORM** (para Moodle ou outro AVA compatível);
+   - ao terminar, pergunte se ele deseja um **tutorial de uso** e um **plano de teste** (três visões, parecer do professor e decisão de apto ou não apto);
+   - na disponibilização, pergunte sempre **onde o professor vai guardar o OA**: se for no Moodle ou em outro AVA, a prioridade é gerar um **pacote SCORM**, reconhecido por vários AVAs; se ele não tiver AVA com SCORM, entregue em **HTML5** e mostre como publicar (por exemplo, no GitHub Pages) para **copiar o link e compartilhar com os alunos**;
    - na disponibilização, sugira guardar o código e os artefatos de forma aberta no **repositório do grupo Intera**: o professor cria o repositório no GitHub seguindo o passo a passo e pede a inclusão na organização https://github.com/intera-repositorio-docente, ou escreve para iemtec@ufabc.edu.br e o grupo ajuda.
 
 ## Regras
