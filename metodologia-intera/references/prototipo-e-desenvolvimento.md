@@ -8,7 +8,7 @@ Esta seção vale quando o professor chega com os artefatos da Intera prontos (c
 4. Escolha da plataforma
 5. Desenvolvimento, com curadoria do conteúdo e o registro de reúso sempre atualizado
 6. Ofertas finais
-7. Disponibilização, com sugestão de envio para o grupo Intera
+7. Disponibilização: onde o OA vai ficar (pacote SCORM para AVA ou link do HTML5) e envio para o grupo Intera
 
 ## 1. Analise os artefatos recebidos
 
@@ -41,7 +41,8 @@ Antes de desenvolver, **sempre** proponha e construa um protótipo de alta fidel
 - é navegável: botões e caminhos principais funcionam;
 - usa conteúdo real em pelo menos uma tela, atividade ou fase completa, e não texto de enchimento;
 - já mostra os recursos de acessibilidade previstos, como contraste, tamanho de letra, legendas, espaço para Libras e navegação por teclado;
-- abre no navegador sem instalação, em HTML.
+- abre no navegador sem instalação, em HTML;
+- já traz o **menu de acessibilidade** que o OA final terá (ver seção 3).
 
 Junto com o protótipo, entregue um roteiro curto de teste para o professor. Por exemplo: "abra a tela inicial, faça a atividade 1, tente errar de propósito, aumente a letra". Peça a ele que registre o que gostou, o que estranhou e o que mudaria. Ajuste o protótipo a cada rodada. Sempre que possível, o professor também testa com alguns alunos do público-alvo, com perfis diferentes. Se isso ainda não for possível, a skill pode simular o uso por personas (descrições fictícias de alunos com necessidades distintas), mas apenas como complemento: personas não substituem pessoas reais nos testes.
 
@@ -53,7 +54,32 @@ Pergunte sempre ao professor: **para qual plataforma o OA deve ser desenvolvido?
 
 - **Se ele não souber,** desenvolva em **HTML completo**: arquivos HTML, CSS e JavaScript autocontidos, responsivos, acessíveis, que funcionem sem internet depois de baixados e abram em qualquer navegador de computador, tablet ou celular. Esse formato pode depois virar pacote SCORM ou aplicativo, e combina com o reúso.
 - **Se escolher Android ou iOS,** proponha ferramentas gratuitas que gerem os dois a partir do mesmo projeto, quando possível (`tecnologias-gratuitas.md`). Avise em "Pontos de atenção" que publicar em loja de aplicativos pode ter custo (por exemplo, a conta de desenvolvedor da Apple é paga) e que um site responsivo, ou um HTML instalável no celular, evita esse custo.
-- **Se escolher outra plataforma** (por exemplo, dentro do Moodle, H5P ou um motor de jogos), siga a escolha e registre a versão da ferramenta.
+- **Se escolher outra plataforma** (por exemplo, dentro do Moodle ou num motor de jogos), siga a escolha e registre a versão da ferramenta. Para H5P, veja o aviso abaixo.
+
+**Menu de acessibilidade nos OAs em HTML5.** Seguindo o Desenho Universal (flexibilidade de uso, `desenho-universal.md`), todo OA em HTML5 traz um menu de acessibilidade sempre visível e acessível por teclado. Proposta desta skill, com base nas diretrizes MobileDU. O menu permite:
+
+- aumentar e diminuir o tamanho da letra sem quebrar a tela;
+- ativar alto contraste e inverter cores;
+- aumentar o espaçamento entre linhas e letras;
+- trocar para uma fonte mais legível;
+- pausar ou desligar animações, sons e música de fundo;
+- ouvir o texto em voz alta, quando o navegador oferecer síntese de voz;
+- voltar às configurações originais.
+
+As escolhas ficam guardadas só no aparelho do aluno, sem envio a servidores (`desenho-etico.md`). Esse menu continua funcionando quando o OA vira pacote SCORM, porque o pacote leva o próprio HTML5.
+
+**Aviso sobre H5P.** O H5P é gratuito e prático, mas tem limites de acessibilidade que o professor precisa conhecer antes de escolher:
+
+- **Não dá para incluir um menu de acessibilidade próprio** dentro de um conteúdo H5P feito nas ferramentas comuns de autoria. Os tipos de conteúdo são fechados e não aceitam código adicional; mudar isso exige desenvolver uma biblioteca H5P própria e instalá-la no AVA. A personalização fica por conta do navegador e do sistema do aluno (zoom, alto contraste, leitor de tela).
+- **Nem todo tipo de conteúdo atende plenamente à WCAG.** Segundo o próprio H5P, que tem como meta a WCAG 2.2 AA, tipos como Accordion, Dialog Cards, Fill in the Blanks, Image Hotspots, Interactive Book, Interactive Video, Single Choice Set e Summary atendem; outros atendem só em parte, como Drag and Drop, Drag the Words, Mark the Words, Memory Game, Multiple Choice, Question Set, True/False e Course Presentation; e Find the Hotspot não é recomendado. Confira a lista atual em help.h5p.com antes de escolher.
+- **A acessibilidade também depende de quem cria:** texto alternativo em todas as imagens, legendas (WebVTT) nos vídeos, transcrição dos áudios, títulos e listas do editor, contraste adequado, cor nunca como única pista, nada de reprodução automática e idioma marcado no texto.
+
+Quando o professor quiser H5P, a skill:
+
+1. explica esses limites em linguagem simples;
+2. oferece a alternativa de fazer o OA em HTML5 com menu de acessibilidade e entregar como pacote SCORM, que funciona nos mesmos AVAs;
+3. se ele mantiver o H5P, sugere os tipos de conteúdo que atendem à WCAG, aplica as boas práticas de autoria acima e oferece uma atividade alternativa equivalente para quem não conseguir usar a principal;
+4. registra no acordo do OA, como **requisito não atendido**, o que ficou de fora (por exemplo, o menu de acessibilidade), com justificativa e alternativa.
 
 ## 4. Durante o desenvolvimento, cuide da curadoria e mantenha um registro de reúso em um único arquivo .md
 
@@ -89,11 +115,33 @@ Quando o OA estiver pronto, pergunte sempre ao professor se ele deseja:
 
 1. **Gerar um tutorial de uso**, ou seja, os manuais do professor e do aluno previstos na etapa de Desenvolvimento, em linguagem simples e em formato acessível.
 2. **Fazer um plano de teste**, a partir dos requisitos e critérios de aceite. O plano segue as três visões (técnica, linguística e pedagógica, e acessibilidade) e inclui desenho ético, o parecer de homologação do professor e a decisão final de apto ou não apto (ver Teste e Qualidade em `etapas-arquitetura-ate-ambiente.md`).
-3. **Exportar para SCORM**, quando o OA for publicado no Moodle ou em outro ambiente virtual que aceite esse padrão. O SCORM 1.2 é o mais compatível com o Moodle. O pacote é um .zip com o arquivo `imsmanifest.xml` na raiz e o OA em HTML.
+3. **Preparar o OA para o lugar onde vai ficar** (pacote SCORM ou link do HTML5), conforme a pergunta da seção 6.
 
 Registre as escolhas no registro de reúso.
 
-## 6. Na disponibilização, sugira o repositório do grupo Intera
+## 6. Na disponibilização, pergunte sempre onde o OA vai ficar
+
+Ao terminar o desenvolvimento, pergunte sempre ao professor: **onde você vai guardar e disponibilizar este OA para os alunos?** O caminho depende da resposta.
+
+**Se for no Moodle ou em outro AVA que aceite SCORM** (como Canvas, Blackboard ou outras plataformas de cursos), a prioridade é gerar um **pacote SCORM**. Ele é reconhecido por vários AVAs, o que facilita o reúso em outras instituições.
+
+- Gere o pacote no padrão **SCORM 1.2**, o mais aceito: um arquivo .zip com o `imsmanifest.xml` na raiz e o OA em HTML5.
+- Se o OA tiver atividades com resultado, registre a conclusão e, quando fizer sentido, a nota, para que o AVA acompanhe o progresso do aluno. Envie só o necessário, de acordo com `desenho-etico.md`.
+- Explique ao professor como enviar o pacote. No Moodle, por exemplo: na disciplina, ative a edição, escolha **Adicionar uma atividade ou recurso** e depois **Pacote SCORM**, e envie o .zip sem descompactar.
+- Guarde também a versão em HTML5, que é o código-fonte do OA e serve para o repositório e para adaptações.
+
+Se o professor não souber se o AVA dele aceita SCORM, sugira perguntar ao suporte da instituição ou testar enviando o pacote numa área de teste.
+
+**Se o professor não tiver um AVA que aceite SCORM** (por exemplo, usa só o Google Sala de Aula, o WhatsApp ou o e-mail), desenvolva em **HTML5** e mostre que **basta copiar o link e compartilhar com os alunos**. Para ter um link, o OA precisa estar publicado na internet. Ofereça um caminho gratuito:
+
+- **GitHub Pages**, que combina com o repositório da seção 8: no repositório do OA, abra **Settings › Pages**, em **Source** escolha **Deploy from a branch**, selecione a branch **main** e a pasta **/(root)** e clique em **Save**. Em alguns minutos aparece o link, no formato `https://<usuario>.github.io/<nome-do-repositorio>/`. O arquivo principal do OA precisa se chamar `index.html`. Se ele estiver dentro da pasta `oa/`, o link termina em `/oa/`.
+- Antes de enviar o link, peça ao professor que abra o endereço no celular e no computador, para conferir se tudo funciona.
+- Mostre um exemplo de mensagem para os alunos, com o link, uma frase sobre a atividade e o lembrete de que o OA abre no navegador, sem instalar nada.
+- Lembre que, se o OA não coletar dados (o recomendado), compartilhar o link não envolve cadastro dos alunos.
+
+Registre no registro de reúso onde o OA foi publicado: AVA e tipo de pacote, ou link.
+
+## 7. Sugira também o repositório do grupo Intera
 
 Sugira sempre guardar o código do OA de forma aberta, junto com todos os artefatos da metodologia e o registro de reúso, no **repositório do grupo Intera**. Para isso, o professor envia um e-mail para **iemtec@ufabc.edu.br**.
 
@@ -107,7 +155,7 @@ Ofereça um rascunho do e-mail, com:
 
 O envio é feito pelo professor. A skill não envia e-mails por conta própria.
 
-## 7. Envio do OA pronto para a organização do grupo Intera no GitHub
+## 8. Envio do OA pronto para a organização do grupo Intera no GitHub
 
 Com o OA pronto e aprovado, sugira ao professor publicá-lo na organização do grupo Intera no GitHub: **https://github.com/intera-repositorio-docente**. Ofereça os dois caminhos.
 

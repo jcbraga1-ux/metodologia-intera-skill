@@ -23,7 +23,7 @@ Antes de recomendar, confira também:
 
 | Necessidade | Exemplos gratuitos |
 | --- | --- |
-| Atividades interativas (quiz, arrastar, linha do tempo, vídeo interativo) | H5P, de código aberto (no Moodle, ou no computador com o aplicativo Lumi) |
+| Atividades interativas (quiz, arrastar, linha do tempo, vídeo interativo) | H5P, de código aberto (no Moodle, ou no computador com o aplicativo Lumi). Atenção: não permite menu de acessibilidade próprio e nem todos os tipos atendem à WCAG; veja o aviso em `prototipo-e-desenvolvimento.md` |
 | Jogos sem programação | GDevelop (código aberto; exporta para navegador e Android) |
 | Jogos com programação | Godot (código aberto) |
 | Histórias interativas e jogos de escolha | Twine (código aberto) |
@@ -38,6 +38,6 @@ Antes de recomendar, confira também:
 
 ## Como a skill conduz
 
-- **Arquitetura (esboço):** ao sugerir o tipo de esboço ou protótipo, sugira também a ferramenta gratuita adequada ao tipo de OA e à equipe disponível. Para professores sem experiência em programação, prefira ferramentas sem código, como H5P, GDevelop e Twine.
+- **Arquitetura (esboço):** ao sugerir o tipo de esboço ou protótipo, sugira também a ferramenta gratuita adequada ao tipo de OA e à equipe disponível. Para professores sem experiência em programação, prefira ferramentas sem código, como H5P, GDevelop e Twine, sempre conferindo a acessibilidade de cada uma. Quando o assistente gera o OA, o HTML5 com menu de acessibilidade é a opção mais flexível.
 - **Desenvolvimento:** registre no documento de arquitetura técnica cada tecnologia escolhida, a licença dela e por que atende aos critérios acima.
 - **Disponibilização:** prefira hospedagem e repositórios gratuitos, com link persistente.
