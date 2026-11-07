@@ -34,6 +34,21 @@ Dois níveis possíveis: a aprendizagem do aluno e as possibilidades de ensino e
 
 A skill **planeja** a avaliação; ela não mede aprendizagem por si.
 
+## Avaliação 360° do OA e melhoria contínua (proposta do grupo)
+
+Base: SILVA, A. G. da. *Modelo aberto de processo para implantação de um curso a distância*. Dissertação (Mestrado em Ciência da Computação), UFABC, 2024. Orientadora: Juliana Braga, cap. 2.5, 6.9 e Anexos H e I.
+
+- **Complemento ao pré e pós-teste:** além de medir a aprendizagem, ouça quem participou sobre a qualidade do OA, com perguntas próprias para cada papel:
+  - quem planejou: as estratégias seguiram o planejado?
+  - quem produziu o conteúdo: a curadoria e as escolhas funcionaram?
+  - quem aplicou ou mediou: o OA ajudou na mediação?
+  - os alunos: o que o OA acrescentou à aprendizagem deles?
+
+  Os instrumentos também precisam ser acessíveis.
+- **Melhoria contínua (ciclo PDCA):** ao final da avaliação, registre no histórico do registro de reúso o que entra na próxima versão do OA. Separe:
+  - **ajustes**, que são correções pontuais e geram versão de correção (ex.: 1.0.1);
+  - **mudanças**, que exigem replanejar parte do OA, voltando à Contextualização ou aos Requisitos, e geram nova versão (ex.: 1.1 ou 2.0).
+
 ## Detalhamento (livro vol. 2 (BRAGA, 2015), cap. 8)
 
 - Para a metodologia, o ciclo de vida do OA só se completa com a avaliação pedagógica, feita depois dos testes técnicos e da disponibilização.

@@ -4,6 +4,12 @@ Origem: pesquisa de mestrado de Andreza Gonçalves da Silva; livro *Metodologia 
 
 Fonte: site Intera › Metodologia INTERA para EAD (BPM), consultado em 31/10/2026.
 
+Detalhamento acadêmico: SILVA, A. G. da. *Modelo aberto de processo para implantação de um curso a distância*. Dissertação (Mestrado em Ciência da Computação), UFABC, 2024. Orientadora: Juliana Braga. Atenção:
+
+- **Granularidade:** nesse modelo, cada disciplina do curso é tratada como um OA. Essa granularidade é específica do EaD; na Intera geral, use o tamanho do grão definido com o professor (`reuso-e-rea.md`).
+- **Validação:** os modelos foram validados com especialista e personas, em simulação, sem aplicação real.
+- **Legislação:** o Plano de Avaliação cita o Decreto 5.622/2005, revogado pelo Decreto 9.057/2017. Confira a legislação vigente antes de usá-lo.
+
 ## Três visões
 
 - **Gestão acadêmica:** aprovação do projeto pedagógico do curso (subprocesso "Aprovar Curso").

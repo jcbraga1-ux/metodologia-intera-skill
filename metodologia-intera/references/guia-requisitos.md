@@ -112,4 +112,15 @@ Fonte: BRAGA, J. C. *Objetos de Aprendizagem, volume 2: metodologia de desenvolv
    Cada RA informa a quem serve (dimensão da matriz), o princípio do DU e a diretriz de origem. Os requisitos pedagógicos também seguem o DU: mais de uma forma de apresentar o conteúdo, de participar e de mostrar o que aprendeu. Leitor de tela e teclado são um item entre vários; um conjunto de RA que só atende pessoas cegas está incompleto.
 5. Entregue o **documento de especificação de requisitos** com identificadores: RP-xx (pedagógicos), RF-xx (funcionais), RNF-xx (não funcionais), RA-xx (acessibilidade). Cada RF/RA com origem (objetivo, diretriz ou critério) e **critério de aceite**. Inclua um anexo com **todas as perguntas do guia e as respostas do professor**, indicando a origem de cada resposta.
    **Ética e privacidade:** gere requisitos RNF-ET (sem dark patterns, coleta mínima, LGPD e, para crianças e adolescentes, ECA Digital), cada um com critério de aceite, conforme `desenho-etico.md`. **Tecnologia:** nos requisitos de portabilidade e disponibilidade, proponha plataformas gratuitas (`tecnologias-gratuitas.md`).
-6. Antes de entregar, confira: todas as perguntas foram feitas? Alguma resposta foi escrita pela skill sem confirmação? Os RA cobrem todas as dimensões da matriz que se aplicam? Liste as questões em aberto e as decisões que dependem do demandante.
+6. **Acordo do OA (versão leve do Termo de Abertura de Projeto).** Depois dos requisitos e antes do protótipo, proponha ao professor um acordo de uma página com:
+   - objetivo e justificativa do OA;
+   - escopo: o que o OA vai fazer;
+   - não escopo: o que o OA não vai fazer;
+   - requisitos atendidos;
+   - requisitos não atendidos, cada um com justificativa e alternativa;
+   - plataforma prevista, restrições e premissas;
+   - riscos;
+   - entregas e prazos estimados.
+
+   O professor revisa e aprova. **Nenhum requisito é cortado em silêncio:** se algo não puder ser feito, volte aos requisitos, registre o motivo e combine a alternativa com o professor. Base: Termo de Abertura de Projeto em SILVA, A. G. da. *Modelo aberto de processo para implantação de um curso a distância*. Dissertação (Mestrado em Ciência da Computação), UFABC, 2024. Orientadora: Juliana Braga, cap. 6.3 e Anexo D.
+7. Antes de entregar, confira: todas as perguntas foram feitas? Alguma resposta foi escrita pela skill sem confirmação? Os RA cobrem todas as dimensões da matriz que se aplicam? Liste as questões em aberto e as decisões que dependem do demandante.

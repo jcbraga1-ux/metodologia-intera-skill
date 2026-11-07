@@ -86,7 +86,7 @@ Modelo: https://docs.google.com/document/d/105q2GiSmPaFgAhsXC67-aagzY4DZAokb/edi
 
 Referência do guia: ROGERS, S. *Level Up: um guia para o design de grandes jogos*.
 
-**Como a skill conduz:** preencha o GDD por seções a partir da contextualização e dos requisitos e, ao final, faça uma checagem de consistência: público e idade iguais em todo o documento; personagens e NPCs com os mesmos nomes; número de níveis × progressão de desafio; regras de pontuação que fecham (máximo, descontos); cada requisito aparece em alguma mecânica ou tela; acessibilidade prevista em cada elemento da tétrade.
+**Como a skill conduz:** em todo jogo, sugira sempre criar o GDD. Conduza o professor passo a passo, uma seção por vez, na ordem do guia acima, e preencha a partir da contextualização e dos requisitos. Se o professor já trouxer um GDD, analise-o criticamente: alinhamento à teoria declarada e às diretrizes D1–D40, Desenho Universal, dark patterns, coerência com os requisitos. Proponha melhorias antes de seguir para o protótipo (`prototipo-e-desenvolvimento.md`). Em ambos os casos, ao final, faça uma checagem de consistência: público e idade iguais em todo o documento; personagens e NPCs com os mesmos nomes; número de níveis × progressão de desafio; regras de pontuação que fecham (máximo, descontos); cada requisito aparece em alguma mecânica ou tela; acessibilidade prevista em cada elemento da tétrade.
 
 ## Diretrizes sociointeracionistas
 

@@ -45,9 +45,13 @@ Detalhes práticos dos esboços:
 
 O desafio é que cada módulo possa ser entendido de forma independente dos demais.
 
+**Revisão estruturada do esboço (proposta do grupo):** antes do protótipo, devolva ao professor um checklist claro do esboço, separando o que foi atendido do que precisa melhorar. Para cada item, aponte o critério usado: objetivos, teoria de aprendizagem, Desenho Universal, desenho ético, reúso e requisitos. O retorno deve ser objetivo e sem juízo pessoal. Se a revisão mexer nos requisitos, atualize-os e o acordo do OA. Base: SILVA, A. G. da. *Modelo aberto de processo para implantação de um curso a distância*. Dissertação (Mestrado em Ciência da Computação), UFABC, 2024. Orientadora: Juliana Braga, cap. 6.4.
+
 ## Desenvolvimento
 
 Construção do OA e de seus componentes de reúso. A técnica varia com o tipo (vídeo: gravar, decupar, editar; software: programar).
+
+**Protótipo e desenvolvimento com o assistente:** quando o professor trouxer os artefatos prontos, siga `prototipo-e-desenvolvimento.md`. O fluxo é: análise crítica, protótipo de alta fidelidade, aprovação, pergunta sobre a plataforma (HTML completo se ele não souber), registro de reúso em um único .md e, ao final, as ofertas de tutorial de uso, plano de teste e exportação SCORM.
 
 **Escolhas tecnológicas (proposta desta skill):** na Arquitetura e no Desenvolvimento, proponha sempre tecnologias e plataformas gratuitas, de preferência de código aberto, e confira se não coletam dados dos alunos para terceiros. Ver `tecnologias-gratuitas.md` e `desenho-etico.md`.
 
@@ -91,6 +95,18 @@ A página de Artefatos também recomenda, em resumo: testes funcionais, de usabi
 
 **Como a skill conduz:** monte o plano de testes a partir da especificação (um caso de teste por RF/RA, com critério de aceite); para acessibilidade, use o conjunto de diretrizes definido nos requisitos (WCAG/e-MAG, MobileDU ou RPG-DU) e recomende testes com pessoas com deficiência do público-alvo, de perfis diferentes (não só com a equipe e não só com um tipo de deficiência); registre o perfil e o número de testadores e quais dimensões da matriz de `desenho-universal.md` foram testadas. Inclua um teste de desenho ético (dark patterns e envio de dados a terceiros), conforme `desenho-etico.md`.
 
+**Três visões de teste, parecer do professor e decisão final (proposta do grupo):**
+
+- Organize o plano de teste em três visões, de preferência com pessoas diferentes em cada uma:
+  - **técnica:** funcionalidades, desempenho e portabilidade;
+  - **linguística e pedagógica:** ortografia, clareza e conteúdo conforme o esboço;
+  - **acessibilidade:** Desenho Universal e diretrizes.
+- Use o modelo de caso de teste: requisito envolvido (RP, RF, RNF ou RA), cenário, critério de sucesso, resultado obtido e ajuste necessário.
+- O **professor homologa** o OA, navegando pelo produto final e emitindo um parecer curto: confere com o que foi planejado? O que precisa mudar?
+- Ao final, **consolide** os resultados das três visões e o parecer do professor em um relatório, com a decisão registrada: **apto** para disponibilização ou **não apto**, com a lista do que volta para o desenvolvimento.
+
+Base: SILVA, A. G. da. *Modelo aberto de processo para implantação de um curso a distância*. Dissertação (Mestrado em Ciência da Computação), UFABC, 2024. Orientadora: Juliana Braga, cap. 6.7 e Anexo F.
+
 ### Detalhamento de Teste e Qualidade (livro vol. 2 (BRAGA, 2015), cap. 6)
 
 - **Dois objetivos:** testes de **validação** (o OA faz o que foi proposto?) e testes de **defeito** (encontrar erros antes do uso com alunos). Em OA, corrigir erros inclui o conteúdo pedagógico, não só o técnico.
@@ -109,7 +125,7 @@ Publicação do OA, da documentação de uso e da instalação em repositório, 
 - **Prática:** depósito em repositório de objetos de aprendizagem.
 - **Saída:** objeto disponível para reúso.
 
-**Como a skill conduz:** gere a ficha de metadados (título, descrição, autores, idioma, público, nível, área/disciplina, objetivos, tipo de recurso, formato, requisitos técnicos, recursos de acessibilidade, licença, data, versão, palavras-chave) e um README; quando o OA for software ou material aberto, sugira repositório com versionamento e DOI (ex.: GitHub + Zenodo). Inclua na ficha a licença e os 5R que ela permite, o tamanho do grão, os formatos entregues e o link para os arquivos-fonte, e atualize a ficha de reúso (`reuso-e-rea.md`). Prefira repositórios especializados em OA ou REA, que guardam também as informações pedagógicas, e links persistentes.
+**Como a skill conduz:** gere a ficha de metadados (título, descrição, autores, idioma, público, nível, área/disciplina, objetivos, tipo de recurso, formato, requisitos técnicos, recursos de acessibilidade, licença, data, versão, palavras-chave) e um README; quando o OA for software ou material aberto, sugira repositório com versionamento e DOI (ex.: GitHub + Zenodo). Inclua na ficha a licença e os 5R que ela permite, o tamanho do grão, os formatos entregues e o link para os arquivos-fonte, e atualize a ficha de reúso (`reuso-e-rea.md`). Prefira repositórios especializados em OA ou REA, que guardam também as informações pedagógicas, e links persistentes. Na licença, considere também os direitos da instituição demandante, quando houver regras institucionais. O manual de acesso e instalação deve permitir que outra pessoa publique o OA em outro ambiente; indique um contato para dúvidas. Sugira sempre guardar o código do OA de forma aberta, com todos os artefatos e o registro de reúso, no repositório do grupo Intera, por e-mail para iemtec@ufabc.edu.br; ofereça um rascunho do e-mail (ver `prototipo-e-desenvolvimento.md`).
 
 ### Detalhamento da Disponibilização (livro vol. 2 (BRAGA, 2015), cap. 7)
 
@@ -143,3 +159,12 @@ Perpassa todo o projeto: custos, cronograma e pessoas.
 ## Ambiente e Padrões
 
 Controla o ambiente técnico de desenvolvimento: backups, controle de versões e, no EaD, ambientes de desenvolvimento, homologação e produção.
+
+**Versão leve para o professor (proposta do grupo):**
+
+- numere as versões do protótipo e do OA (por exemplo, 0.1, 0.2, 1.0) e registre cada uma no histórico do registro de reúso;
+- guarde uma cópia de segurança fora do computador, como num repositório no GitHub ou numa pasta na nuvem;
+- teste numa cópia e publique para os alunos só a versão aprovada (apto);
+- se o OA ficar num AVA, use uma área de teste separada da turma real, quando a instituição permitir.
+
+Base: SILVA, A. G. da. *Modelo aberto de processo para implantação de um curso a distância*. Dissertação (Mestrado em Ciência da Computação), UFABC, 2024. Orientadora: Juliana Braga, cap. 6.6.
