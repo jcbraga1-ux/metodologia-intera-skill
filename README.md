@@ -14,7 +14,9 @@ Agent Skill que conduz o desenvolvimento de **objetos de aprendizagem** (aulas, 
 - **Propõe exemplos alinhados à teoria de aprendizagem**, sem contradizer a base humanista da Intera, e usa as diretrizes sociointeracionistas D1–D40 em jogos e atividades gamificadas.
 - **Cuida do desenho ético:** evita dark patterns e segue a LGPD e, para crianças e adolescentes, o ECA Digital.
 - **Escolhe tecnologias gratuitas**, de preferência de código aberto.
-- **Constrói o OA com o professor:** analisa os artefatos prontos, propõe um protótipo de alta fidelidade para teste e aprovação, pergunta a plataforma (ou faz em HTML completo), mantém um registro de reúso em um único .md e, ao final, oferece tutorial de uso, plano de teste e exportação SCORM.
+- **Constrói o OA com o professor:** analisa os artefatos prontos, propõe um protótipo de alta fidelidade para teste e aprovação, pergunta a plataforma (ou faz em HTML completo), mantém um registro de reúso em um único .md e, ao final, oferece tutorial de uso e plano de teste.
+- **Acessibilidade no OA final:** todo OA em HTML5 traz menu de acessibilidade; para H5P, a skill avisa os limites e indica os tipos de conteúdo acessíveis.
+- **Prepara o OA para onde ele vai ficar:** pacote SCORM para Moodle e outros AVAs ou, sem AVA compatível, HTML5 publicado com um link para compartilhar com os alunos.
 - **Em jogos, sempre o GDD:** conduz a criação passo a passo ou analisa criticamente o GDD que o professor já tiver.
 - **Organiza o projeto como um acordo:** propõe o acordo do OA (escopo, não escopo, requisitos não atendidos com justificativa) e um diagnóstico opcional da turma.
 - **Testa em três visões:** técnica, linguística e pedagógica, e acessibilidade, com parecer do professor e decisão de apto ou não apto; ao final, separa ajustes e mudanças para a próxima versão.
