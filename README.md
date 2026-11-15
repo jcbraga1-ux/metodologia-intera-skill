@@ -56,9 +56,9 @@ Desde a versão 1.7.0, esta skill reúne as três skills de acessibilidade do gr
 
 | Skill separada | Versão incluída | DOI |
 | --- | --- | --- |
-| [wcag-sem-complicacao](https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill) | 1.0.1 | [10.5281/zenodo.23837715](https://doi.org/10.5281/zenodo.23837715) |
-| [mobiledu-diretrizes](https://github.com/jcbraga1-ux/mobiledu-skill) (Coletto, 2026) | 1.0.1 | [10.5281/zenodo.23809314](https://doi.org/10.5281/zenodo.23809314) |
-| [rpg-du-diretrizes](https://github.com/jcbraga1-ux/rpg-du-skill) (Cunha, 2022) | 1.0.0 | [10.5281/zenodo.23836531](https://doi.org/10.5281/zenodo.23836531) |
+| [wcag-sem-complicacao](https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill) | 1.0.2 | [10.5281/zenodo.23837715](https://doi.org/10.5281/zenodo.23837715) |
+| [mobiledu-diretrizes](https://github.com/jcbraga1-ux/mobiledu-skill) (Coletto, 2026) | 1.0.2 | [10.5281/zenodo.23809314](https://doi.org/10.5281/zenodo.23809314) |
+| [rpg-du-diretrizes](https://github.com/jcbraga1-ux/rpg-du-skill) (Cunha, 2022) | 1.0.1 | [10.5281/zenodo.23836531](https://doi.org/10.5281/zenodo.23836531) |
 
 - **Instale a Intera-IA ou as skills separadas, não as duas**, para o assistente não receber as mesmas orientações em dobro.
 - **As skills separadas são a fonte.** As correções são feitas nelas, e o script [`montar-pacote.py`](montar-pacote.py) copia o conteúdo para `references/` a cada nova versão da Intera-IA. Não edite os arquivos `diretrizes-wcag.md`, `diretrizes-mobiledu.md` e `diretrizes-rpg-du*.md` à mão.
@@ -90,7 +90,7 @@ Use o botão *Cite this repository* do GitHub (arquivo [`CITATION.cff`](CITATION
 
 ## Licença
 
-Conteúdo licenciado sob [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br), a mesma licença aberta da metodologia.
+Conteúdo licenciado sob [Creative Commons Atribuição-NãoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br): você pode usar, adaptar e redistribuir para fins não comerciais, desde que cite a fonte. Não é permitido vender o material nem usá-lo para fins comerciais. As versões até a v1.8.0 foram publicadas sob CC BY 4.0.
 
 ## Contribuições
 
