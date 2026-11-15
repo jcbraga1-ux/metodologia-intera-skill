@@ -1,4 +1,4 @@
-> Este arquivo faz parte da Intera-IA (skill metodologia-intera) e reproduz a skill `rpg-du-diretrizes` v1.0.0, licença CC BY 4.0, DOI 10.5281/zenodo.23836531 (https://github.com/jcbraga1-ux/rpg-du-skill). Onde o texto abaixo diz "esta skill", leia "este conjunto de diretrizes". Não edite aqui: as correções são feitas na skill separada e copiadas para cá a cada versão.
+> Este arquivo faz parte da Intera-IA (skill metodologia-intera) e reproduz a skill `rpg-du-diretrizes` v1.0.1, licença CC BY-NC 4.0, DOI 10.5281/zenodo.23836531 (https://github.com/jcbraga1-ux/rpg-du-skill). Onde o texto abaixo diz "esta skill", leia "este conjunto de diretrizes". Não edite aqui: as correções são feitas na skill separada e copiadas para cá a cada versão.
 
 # As 88 diretrizes de Design Universal para jogos educacionais RPG
 

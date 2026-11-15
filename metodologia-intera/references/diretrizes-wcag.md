@@ -1,4 +1,4 @@
-> Este arquivo faz parte da Intera-IA (skill metodologia-intera) e reproduz a skill `wcag-sem-complicacao` v1.0.1, licença CC BY 4.0, DOI 10.5281/zenodo.23837715 (https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill). Onde o texto abaixo diz "esta skill", leia "este conjunto de diretrizes". Não edite aqui: as correções são feitas na skill separada e copiadas para cá a cada versão.
+> Este arquivo faz parte da Intera-IA (skill metodologia-intera) e reproduz a skill `wcag-sem-complicacao` v1.0.2, licença CC BY-NC 4.0, DOI 10.5281/zenodo.23837715 (https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill). Onde o texto abaixo diz "esta skill", leia "este conjunto de diretrizes". Não edite aqui: as correções são feitas na skill separada e copiadas para cá a cada versão.
 
 # WCAG 2.1 sem complicação
 

@@ -54,7 +54,7 @@ A OCDE organiza a abertura em três domínios: social (liberdades dos 5R), técn
 Cuidados:
 - Ao remixar, a licença do OA final precisa ser compatível com a de todos os materiais usados (ex.: conteúdo SA obriga o derivado a ser SA; conteúdo NC impede o derivado de ser BY).
 - O livro relata um "consenso não explícito" de que tudo o que está na internet pode ser usado na educação. Isso não é verdade: verifique a licença de cada imagem, música, vídeo e texto e registre a fonte.
-- A Metodologia Intera e as skills do grupo usam CC BY 4.0.
+- A Metodologia Intera e as skills do grupo usam CC BY-NC 4.0 (uso não comercial). Isso vale para os materiais do grupo; a licença do OA de cada professor é escolha dele.
 
 ## 5. Características técnicas que afetam o reúso (cap. 2)
 

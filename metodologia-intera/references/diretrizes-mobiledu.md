@@ -1,4 +1,4 @@
-> Este arquivo faz parte da Intera-IA (skill metodologia-intera) e reproduz a skill `mobiledu-diretrizes` v1.0.1, licença CC BY 4.0, DOI 10.5281/zenodo.23809314 (https://github.com/jcbraga1-ux/mobiledu-skill). Onde o texto abaixo diz "esta skill", leia "este conjunto de diretrizes". Não edite aqui: as correções são feitas na skill separada e copiadas para cá a cada versão.
+> Este arquivo faz parte da Intera-IA (skill metodologia-intera) e reproduz a skill `mobiledu-diretrizes` v1.0.2, licença CC BY-NC 4.0, DOI 10.5281/zenodo.23809314 (https://github.com/jcbraga1-ux/mobiledu-skill). Onde o texto abaixo diz "esta skill", leia "este conjunto de diretrizes". Não edite aqui: as correções são feitas na skill separada e copiadas para cá a cada versão.
 
 # Biblioteca MobileDU – Diretrizes de Desenho Universal para aplicações móveis
 
