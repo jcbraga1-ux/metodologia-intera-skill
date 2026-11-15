@@ -14,6 +14,8 @@ Agent Skill que conduz, também chamada de **Intera-IA**, o desenvolvimento de *
 - **Propõe exemplos alinhados à teoria de aprendizagem**, sem contradizer a base humanista da Intera, e usa as diretrizes sociointeracionistas D1–D40 em jogos e atividades gamificadas.
 - **Cuida do desenho ético:** evita dark patterns e segue a LGPD e, para crianças e adolescentes, o ECA Digital.
 - **Escolhe tecnologias gratuitas**, de preferência de código aberto.
+- **Mostra o OA na tela, sem código:** o professor vê e usa o esboço, o protótipo e o OA direto na tela, e a skill sempre pergunta "Posso desenvolver o OA?" antes de construir.
+- **Testa cada requisito ao final** com testes automatizados de usabilidade, acessibilidade e corretude, e inclui o **VLibras** nos OAs em HTML sempre que possível.
 - **Constrói o OA com o professor:** analisa os artefatos prontos, propõe um protótipo de alta fidelidade para teste e aprovação, pergunta a plataforma (ou faz em HTML completo), mantém um registro de reúso em um único .md e, ao final, oferece tutorial de uso e plano de teste.
 - **Acessibilidade no OA final:** todo OA em HTML5 traz menu de acessibilidade; para H5P, a skill avisa os limites e indica os tipos de conteúdo acessíveis.
 - **Prepara o OA para onde ele vai ficar:** pacote SCORM para Moodle e outros AVAs ou, sem AVA compatível, HTML5 publicado com um link para compartilhar com os alunos.
