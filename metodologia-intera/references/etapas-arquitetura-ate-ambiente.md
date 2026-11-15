@@ -93,7 +93,7 @@ Tipos de teste e questões orientadoras (site e livro):
 
 A página de Artefatos também recomenda, em resumo: testes funcionais, de usabilidade e de experiência do usuário. Para jogos, somam-se jogabilidade e conteúdo; para cursos EaD, checklist de qualidade e checklist de acessibilidade e-MAG.
 
-**Como a skill conduz:** monte o plano de testes a partir da especificação (um caso de teste por RF/RA, com critério de aceite); para acessibilidade, use o conjunto de diretrizes definido nos requisitos (WCAG/e-MAG, MobileDU ou RPG-DU) e recomende testes com pessoas com deficiência do público-alvo, de perfis diferentes (não só com a equipe e não só com um tipo de deficiência); registre o perfil e o número de testadores e quais dimensões da matriz de `desenho-universal.md` foram testadas. Inclua um teste de desenho ético (dark patterns e envio de dados a terceiros), conforme `desenho-etico.md`.
+**Como a skill conduz:** monte o plano de testes a partir da especificação (um caso de teste por RF/RA, com critério de aceite); para acessibilidade, use o conjunto de diretrizes definido nos requisitos (WCAG/e-MAG, MobileDU ou RPG-DU, com os arquivos `diretrizes-wcag.md`, `diretrizes-mobiledu.md` e `diretrizes-rpg-du.md`) e recomende testes com pessoas com deficiência do público-alvo, de perfis diferentes (não só com a equipe e não só com um tipo de deficiência); registre o perfil e o número de testadores e quais dimensões da matriz de `desenho-universal.md` foram testadas. Inclua um teste de desenho ético (dark patterns e envio de dados a terceiros), conforme `desenho-etico.md`.
 
 **Três visões de teste, parecer do professor e decisão final (proposta do grupo):**
 

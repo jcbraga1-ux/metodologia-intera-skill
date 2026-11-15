@@ -46,7 +46,7 @@ No projeto Expedição Antártica (cap. 6) atuaram também co-designers cegos e 
 - Não usar avatares de tradução automática para Libras; usar intérpretes.
 - Artefatos novos: glossário em Libras, requisitos de acessibilidade por público, caso de uso acessível, mapa de teclas, roteiro de gravação em Libras, fluxo de teste para Design Universal.
 - O analista é papel crítico; os testes das equipes dependem uns dos outros.
-- Para diretrizes de Design Universal em jogos RPG, use a skill `rpg-du-diretrizes` (88 diretrizes, Cunha 2022), se disponível.
+- Para diretrizes de Design Universal em jogos RPG, consulte `diretrizes-rpg-du.md` e `diretrizes-rpg-du-completas.md` (88 diretrizes, Cunha 2022).
 
 ## Validação da extensão para jogos (artigo do grupo)
 
