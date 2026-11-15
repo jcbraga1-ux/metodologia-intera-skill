@@ -2,6 +2,8 @@
 
 Objetivo: levantar o que se espera do OA (o "quê" e o "como"), unindo objetivos pedagógicos e desenvolvimento técnico. O professor deve atuar fortemente nesta etapa.
 
+**Primeiro, o tipo de OA.** Se o tipo de OA ainda não estiver definido, pergunte antes de qualquer requisito, porque o guia muda conforme o tipo: jogo segue a Metodologia Intera para jogos (https://www.interaufabc.com.br/metodologia-intera-para-jogos, guia de requisitos de jogos em https://www.interaufabc.com.br/artefatos-jogos); curso a distância segue a Metodologia Intera para EaD (https://www.interaufabc.com.br/metodologia-intera-para-ead-bpm, guia de coleta de requisitos em `extensao-ead.md`); os demais tipos seguem a Metodologia Intera 2.0 (https://www.interaufabc.com.br/metodologia-intera-2-0) e o guia abaixo. Cada requisito funcional e não funcional terá, ao final do desenvolvimento, um teste automatizado de usabilidade, acessibilidade ou corretude (`prototipo-e-desenvolvimento.md`), por isso escreva critérios de aceite que possam ser verificados.
+
 - **Entradas:** relatório de análise de contexto; guia de coleta de requisitos. (Jogos: também wireframe e arquitetura da narrativa.)
 - **Práticas:** entrevistas; preenchimento de formulários; brainstorm (mapas conceituais). (Jogos: reunião com equipes de conteúdo e desenvolvimento; diagramas de atividades; casos de uso; casos de teste.)
 - **Saída:** documento de especificação de requisitos. (Jogos: também casos de uso e decupagem.)

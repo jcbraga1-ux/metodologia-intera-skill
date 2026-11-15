@@ -33,6 +33,8 @@ Antes de recomendar, confira também:
 | Imagens e ilustrações | Inkscape (vetor), Krita (desenho), GIMP (edição de imagem), todos de código aberto |
 | Áudio e narração | Audacity (código aberto) |
 | Vídeo | Kdenlive ou Shotcut (edição) e OBS Studio (gravação de tela), de código aberto |
+| OA em HTML, com tecnologias embutidas (preferência no desenvolvimento) | Um único arquivo HTML, com CSS, JavaScript e bibliotecas de código aberto dentro dele (tem prévia no Canvas do Gemini e no artefato do Claude) |
+| Tradução automática para Libras | VLibras (gratuito, do governo federal; precisa de internet; complementa, mas não substitui o intérprete) |
 | Publicação na web | GitHub Pages (gratuito), com o OA feito em HTML |
 | Repositório e DOI | Zenodo (gratuito), eduCAPES e a Plataforma MEC RED |
 

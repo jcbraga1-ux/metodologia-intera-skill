@@ -3,11 +3,11 @@
 Esta seção vale quando o professor chega com os artefatos da Intera prontos (contextualização, requisitos, esboço ou GDD) e quer que o OA seja construído. Ela segue o fluxo definido pelo grupo Intera para o trabalho com assistentes de IA. Algumas práticas vêm do modelo de processo de SILVA, A. G. da. *Modelo aberto de processo para implantação de um curso a distância* (Dissertação de Mestrado, UFABC, 2024), adaptado para o professor que trabalha com um assistente de IA. A ordem é sempre a mesma:
 
 1. Análise dos artefatos e acordo do OA
-2. Protótipo de alta fidelidade
-3. Aprovação do professor
+2. Esboço ou protótipo adequado ao tipo de OA, mostrado na tela
+3. Aprovação do professor e a pergunta "Posso desenvolver o OA?"
 4. Escolha da plataforma
-5. Desenvolvimento, com curadoria do conteúdo e o registro de reúso sempre atualizado
-6. Ofertas finais
+5. Desenvolvimento com tecnologias gratuitas embutidas e VLibras, com curadoria do conteúdo e o registro de reúso sempre atualizado
+6. Testes automatizados de cada requisito e ofertas finais
 7. Disponibilização: onde o OA vai ficar (pacote SCORM para AVA ou link do HTML5) e envio para o grupo Intera
 
 ## 1. Analise os artefatos recebidos
@@ -33,9 +33,30 @@ Em seguida, proponha o **acordo do OA**, uma versão leve do Termo de Abertura d
 
 O protótipo começa depois que o professor aprova o acordo.
 
-## 2. Proponha sempre um protótipo de alta fidelidade
+## 2. Mostre sempre um esboço ou protótipo antes de desenvolver
 
-Antes de desenvolver, **sempre** proponha e construa um protótipo de alta fidelidade para o professor testar. Um protótipo de alta fidelidade:
+Antes da construção do OA, **sempre** mostre um esboço ou protótipo para o professor ver e testar. Isso vale também quando o professor trouxer todos os artefatos prontos. O que mostrar depende do tipo de OA (proposta desta skill):
+
+| Tipo de OA | Esboço obrigatório da Arquitetura | O que mostrar antes de desenvolver |
+| --- | --- | --- |
+| Videoaula ou vídeo | Roteiro | Roteiro e storyboard das cenas principais, ou a prévia de uma cena |
+| Aula síncrona | Roteiro com sequência didática | Roteiro e os slides ou atividades de uma parte da aula |
+| Animação ou simulação | Roteiro ou storyboard | Storyboard e uma tela interativa funcionando |
+| Software ou aplicativo | Protótipo ou wireframe | Telas navegáveis, em alta fidelidade |
+| Curso EaD | Mapa de atividades (mapa instrucional), modelo em https://www.interaufabc.com.br/arquitetura-ead | O mapa e uma unidade montada como o aluno vai ver |
+| Jogo | GDD, modelo em https://www.interaufabc.com.br/artefatos-jogos | O GDD e uma fase jogável (ou um protótipo de papel das mecânicas) |
+
+**Mostre na tela, sem código.** Não exiba código na conversa, nem antes nem depois de gerar, e não explique o código. O professor precisa ver e interagir com o esboço, o protótipo e o OA direto na tela, sem copiar nada.
+
+- **No Gemini,** a prévia do HTML só funciona no **Canvas**, e quem liga o Canvas é o professor. Antes de gerar qualquer protótipo ou OA em HTML, peça que ele ligue: no computador, clicando em **Canvas** na barra onde se digita o pedido; no celular, tocando no **+** e escolhendo **Canvas**. Espere a confirmação e só então gere.
+- **No Claude,** use o artefato.
+- **Gere um único arquivo HTML**, com o CSS e o JavaScript dentro dele. Arquivos separados aparecem como blocos de código e não têm prévia.
+- Se a ferramenta não tiver prévia, entregue o arquivo HTML para baixar e explique em uma frase como abrir (dois cliques no arquivo).
+- Se o código aparecer na conversa por engano, oriente o professor a ligar o Canvas e pedir "mostre a prévia".
+
+Só mostre o código se o professor pedir, por exemplo para guardar ou adaptar.
+
+Para OAs interativos (simulação, software, jogo, atividade em HTML), o protótipo é de alta fidelidade. Um protótipo de alta fidelidade:
 
 - tem aparência próxima da final (cores, fontes, ícones, disposição das telas);
 - é navegável: botões e caminhos principais funcionam;
@@ -46,13 +67,24 @@ Antes de desenvolver, **sempre** proponha e construa um protótipo de alta fidel
 
 Junto com o protótipo, entregue um roteiro curto de teste para o professor. Por exemplo: "abra a tela inicial, faça a atividade 1, tente errar de propósito, aumente a letra". Peça a ele que registre o que gostou, o que estranhou e o que mudaria. Ajuste o protótipo a cada rodada. Sempre que possível, o professor também testa com alguns alunos do público-alvo, com perfis diferentes. Se isso ainda não for possível, a skill pode simular o uso por personas (descrições fictícias de alunos com necessidades distintas), mas apenas como complemento: personas não substituem pessoas reais nos testes.
 
-**Só passe para o desenvolvimento depois que o professor aprovar o protótipo de forma explícita.** Registre a aprovação e as mudanças de cada rodada no registro de reúso.
+**Pergunte sempre: "Posso desenvolver o OA?"** Depois que o OA estiver projetado e prototipado e o professor tiver aprovado o esboço ou protótipo, faça essa pergunta com essas palavras e só passe para o desenvolvimento depois de um sim explícito. Registre a aprovação e as mudanças de cada rodada no registro de reúso.
 
 ## 3. Antes de desenvolver, pergunte a plataforma
 
 Pergunte sempre ao professor: **para qual plataforma o OA deve ser desenvolvido? Web, iOS, Android ou outra?**
 
-- **Se ele não souber,** desenvolva em **HTML completo**: arquivos HTML, CSS e JavaScript autocontidos, responsivos, acessíveis, que funcionem sem internet depois de baixados e abram em qualquer navegador de computador, tablet ou celular. Esse formato pode depois virar pacote SCORM ou aplicativo, e combina com o reúso.
+- **Se ele não souber,** desenvolva em **HTML completo**: um único arquivo HTML, com o CSS e o JavaScript dentro dele, autocontido, responsivos, acessíveis, que funcionem sem internet depois de baixados e abram em qualquer navegador de computador, tablet ou celular (o VLibras, abaixo, aparece quando houver conexão). Esse formato pode depois virar pacote SCORM ou aplicativo, e combina com o reúso.
+
+**Tecnologias gratuitas embutidas.** Desenvolva o OA com tecnologias gratuitas que ficam dentro do próprio OA: de preferência um único arquivo HTML, com CSS e JavaScript dentro dele e, quando forem necessárias, bibliotecas de código aberto incluídas no próprio arquivo. Assim o OA funciona sem instalar programas, sem criar conta e sem depender de serviço pago, e outra pessoa consegue abrir e adaptar os arquivos. Registre cada biblioteca, com versão e licença, no registro de reúso (`tecnologias-gratuitas.md`).
+
+**VLibras sempre que possível.** Nos OAs em HTML, inclua o VLibras, o tradutor gratuito de português para Libras do governo federal (https://vlibras.gov.br). Ele aparece como um botão na tela; o aluno seleciona um texto e um avatar faz a tradução em Libras. Para incluir, coloque antes do fim do corpo da página o widget oficial do VLibras: o bloco com o atributo vw (botão de acesso e área do avatar), o script vlibras-plugin.js, carregado de vlibras.gov.br/app, e a inicialização do widget apontando para vlibras.gov.br/app. Isso fica dentro do arquivo do OA; não mostre esse código ao professor.
+
+Cuidados:
+
+- **Precisa de internet:** o VLibras é carregado do site do governo. Sem conexão, o botão não aparece e o resto do OA continua funcionando.
+- **Complementa, não substitui o intérprete:** a tradução automática por avatar ajuda no dia a dia, mas os conteúdos principais pedem vídeos em Libras feitos por intérprete, como recomenda o livro da metodologia.
+- **Privacidade:** por ser um serviço externo, cite o VLibras no aviso de privacidade do OA (`desenho-etico.md`).
+- **Onde não dá:** em H5P e em alguns AVAs não é possível incluir o widget. Registre como limitação no acordo do OA.
 - **Se escolher Android ou iOS,** proponha ferramentas gratuitas que gerem os dois a partir do mesmo projeto, quando possível (`tecnologias-gratuitas.md`). Avise em "Pontos de atenção" que publicar em loja de aplicativos pode ter custo (por exemplo, a conta de desenvolvedor da Apple é paga) e que um site responsivo, ou um HTML instalável no celular, evita esse custo.
 - **Se escolher outra plataforma** (por exemplo, dentro do Moodle ou num motor de jogos), siga a escolha e registre a versão da ferramenta. Para H5P, veja o aviso abaixo.
 
@@ -109,9 +141,17 @@ Estrutura sugerida (proposta desta skill):
 
 Atualize o arquivo a cada entrega e entregue-o junto com o OA.
 
-## 5. Ao finalizar, ofereça sempre três coisas
+## 5. Ao finalizar, teste automaticamente cada requisito e ofereça três coisas
 
-Quando o OA estiver pronto, pergunte sempre ao professor se ele deseja:
+**Testes automatizados.** Ao terminar o desenvolvimento, verifique **cada requisito funcional e não funcional** com testes automatizados, seguindo as práticas da etapa Teste e Qualidade da Intera (https://www.interaufabc.com.br/teste-e-qualidade e `etapas-arquitetura-ate-ambiente.md`). No mínimo:
+
+- **Usabilidade:** botões e áreas de toque com tamanho adequado, rótulos claros, navegação consistente, mensagens de erro e de ajuda que explicam o que fazer, nenhum caminho sem saída.
+- **Acessibilidade:** contraste calculado entre texto e fundo, texto alternativo nas imagens, uso completo pelo teclado com foco visível, rótulos nos campos, idioma da página marcado, menu de acessibilidade funcionando, VLibras presente, nada piscando, nenhuma informação só por cor, conforme as diretrizes escolhidas nos requisitos.
+- **Corretude:** ortografia e gramática dos textos; conferência dos cálculos, das respostas corretas e dos feedbacks; links funcionando.
+
+Quando a ferramenta puder executar código, rode scripts de verificação (por exemplo, cálculo de contraste, validação do HTML e testes dos cálculos com valores conhecidos). Quando não puder, faça a verificação item a item e diga claramente que ela foi feita por leitura, e não de forma automática. Entregue o resultado como **evidências de teste** e **relatório de erros**, organizados por requisito (identificador, o que foi testado, resultado e correção feita). Corrija o que falhou e teste de novo. Os testes automatizados não substituem os testes com pessoas do público-alvo nem o parecer do professor.
+
+Depois dos testes, pergunte sempre ao professor se ele deseja:
 
 1. **Gerar um tutorial de uso**, ou seja, os manuais do professor e do aluno previstos na etapa de Desenvolvimento, em linguagem simples e em formato acessível.
 2. **Fazer um plano de teste**, a partir dos requisitos e critérios de aceite. O plano segue as três visões (técnica, linguística e pedagógica, e acessibilidade) e inclui desenho ético, o parecer de homologação do professor e a decisão final de apto ou não apto (ver Teste e Qualidade em `etapas-arquitetura-ate-ambiente.md`).
