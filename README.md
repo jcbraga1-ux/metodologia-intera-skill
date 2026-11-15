@@ -1,6 +1,6 @@
 # Metodologia Intera 2.0 – Skill
 
-Agent Skill que conduz o desenvolvimento de **objetos de aprendizagem** (aulas, cursos a distância, vídeos, simulações, softwares e jogos educacionais) com a **Metodologia Intera 2.0**, do grupo de pesquisa Intera da Universidade Federal do ABC (UFABC). Funciona com assistentes de IA compatíveis com o padrão aberto [Agent Skills](https://agentskills.io/).
+Agent Skill que conduz, também chamada de **Intera-IA**, o desenvolvimento de **objetos de aprendizagem** (aulas, cursos a distância, vídeos, simulações, softwares e jogos educacionais) com a **Metodologia Intera 2.0**, do grupo de pesquisa Intera da Universidade Federal do ABC (UFABC). Funciona com assistentes de IA compatíveis com o padrão aberto [Agent Skills](https://agentskills.io/).
 
 ## O que a skill faz
 
@@ -21,7 +21,7 @@ Agent Skill que conduz o desenvolvimento de **objetos de aprendizagem** (aulas, 
 - **Organiza o projeto como um acordo:** propõe o acordo do OA (escopo, não escopo, requisitos não atendidos com justificativa) e um diagnóstico opcional da turma.
 - **Testa em três visões:** técnica, linguística e pedagógica, e acessibilidade, com parecer do professor e decisão de apto ou não apto; ao final, separa ajustes e mudanças para a próxima versão.
 - **Sugere o repositório do grupo Intera** para guardar o código e os artefatos de forma aberta: passo a passo para publicar na organização [intera-repositorio-docente](https://github.com/intera-repositorio-docente) no GitHub, ou contato por iemtec@ufabc.edu.br.
-- **Trata acessibilidade com diretrizes** e trabalha junto com as skills [WCAG sem complicação](https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill), [MobileDU](https://github.com/jcbraga1-ux/mobiledu-skill) e [RPG-DU](https://github.com/jcbraga1-ux/rpg-du-skill).
+- **Traz as diretrizes de acessibilidade do grupo Intera**, já incluídas: WCAG 2.1 em linguagem simples, MobileDU (aplicativos) e RPG-DU (jogos RPG).
 
 ## Conteúdo
 
@@ -41,8 +41,25 @@ metodologia-intera/
     ├── desenho-etico.md                       # dark patterns, LGPD e ECA Digital
     ├── tecnologias-gratuitas.md               # critérios e exemplos de ferramentas gratuitas
     ├── prototipo-e-desenvolvimento.md         # protótipo, plataforma, registro de reúso, SCORM e repositório Intera
-    └── diretrizes-sociointeracionistas.md     # D1–D40
+    ├── diretrizes-sociointeracionistas.md     # D1–D40
+    ├── diretrizes-wcag.md                     # 78 critérios WCAG 2.1 (cópia da skill wcag-sem-complicacao)
+    ├── diretrizes-mobiledu.md                 # 60 diretrizes MobileDU (cópia da skill mobiledu-diretrizes)
+    ├── diretrizes-rpg-du.md                   # visão geral das 88 diretrizes RPG-DU (cópia da skill rpg-du-diretrizes)
+    └── diretrizes-rpg-du-completas.md         # texto completo das 88 diretrizes RPG-DU
 ```
+
+## Intera-IA e as skills separadas
+
+Desde a versão 1.7.0, esta skill reúne as três skills de acessibilidade do grupo Intera. Elas continuam publicadas separadamente, cada uma com seu DOI, para quem quiser usar só uma delas:
+
+| Skill separada | Versão incluída | DOI |
+| --- | --- | --- |
+| [wcag-sem-complicacao](https://github.com/jcbraga1-ux/wcag-sem-complicacao-skill) | 1.0.1 | [10.5281/zenodo.23837715](https://doi.org/10.5281/zenodo.23837715) |
+| [mobiledu-diretrizes](https://github.com/jcbraga1-ux/mobiledu-skill) (Coletto, 2026) | 1.0.1 | [10.5281/zenodo.23809314](https://doi.org/10.5281/zenodo.23809314) |
+| [rpg-du-diretrizes](https://github.com/jcbraga1-ux/rpg-du-skill) (Cunha, 2022) | 1.0.0 | [10.5281/zenodo.23836531](https://doi.org/10.5281/zenodo.23836531) |
+
+- **Instale a Intera-IA ou as skills separadas, não as duas**, para o assistente não receber as mesmas orientações em dobro.
+- **As skills separadas são a fonte.** As correções são feitas nelas, e o script [`montar-pacote.py`](montar-pacote.py) copia o conteúdo para `references/` a cada nova versão da Intera-IA. Não edite os arquivos `diretrizes-wcag.md`, `diretrizes-mobiledu.md` e `diretrizes-rpg-du*.md` à mão.
 
 ## Como instalar
 
@@ -59,6 +76,9 @@ Depois de instalada, basta pedir em linguagem natural, por exemplo: *“Quero de
 - BRAGA, Juliana Cristina (org.). **Objetos de Aprendizagem, volume 1: introdução e fundamentos**. Santo André: Editora da UFABC, 2014. (Coleção Intera). ISBN 978-85-68576-03-8.
 - BRAGA, Juliana Cristina. **Objetos de Aprendizagem, volume 2: metodologia de desenvolvimento**. Santo André: Editora da UFABC, 2015. (Coleção Intera). ISBN 978-85-68576-04-5.
 - Site do grupo Intera: https://www.interaufabc.com.br/metodologia-intera-2-0 (guias e artefatos consultados em 31/10/2026).
+- COLETTO, Carlos Jair. **Diretrizes para o desenvolvimento de aplicações móveis voltadas para o Desenho Universal: a Biblioteca MobileDU**. Tese (Doutorado em Ciência da Computação). Santo André: Universidade Federal do ABC, 2026.
+- CUNHA, Francinete Furtado da. **Diretrizes para o design universal de jogos educacionais digitais do tipo Role Play Games (RPG)**. Dissertação (Mestrado em Ciência da Computação). Santo André: Universidade Federal do ABC, 2022.
+- W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. W3C Recommendation, 2018. https://www.w3.org/TR/WCAG21/
 
 Quando livro e site diferem, a skill usa os modelos publicados no site e registra a diferença. Trechos que são propostas da skill, e não constam nas fontes, estão sinalizados como tal.
 
